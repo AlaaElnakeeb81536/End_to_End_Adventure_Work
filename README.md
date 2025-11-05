@@ -9,12 +9,6 @@
 The AdventureWorks2019 Sales Data Mart Project is a powerful data solution built on SQL Server and SQL Server Integration Services (SSIS) and powerpi.
 It efficiently extracts, transforms, and loads data from SQL Server into a star schema-based data model.
 
-### Data Mart
-A data mart is an organized subset of a data warehouse that is targeted at a particular department or functional area inside a company.
-It offers a focused and streamlined perspective of the data, meeting particular reporting and analytical requirements. Smaller in size and breadth, 
-data marts usually contain pertinent information for a particular user group, such finance, sales, or marketing. They are arranged according to particular topics, 
-like sales, customer information, or product details, and they are optimized, converted, and formatted for effective domain querying and analysis.
-
 ### Data Sources
 The AdventureWorks2019 dataset serves as the main source of data for the AdventureWorks2019 Sales Data Mart Project. 
 This dataset offers extensive data about sales, clients, goods, and other topics. AdventureWorks (2019)
@@ -25,12 +19,6 @@ Before getting started with the proejct, ensure you have the following prerequis
 SQL Server
 SQL Server Integration Services (SSIS)
 PowerPi
-
- ### Key Features:
-Data Pipeline: SSIS was implemented to provide smooth data transformation and extraction.
-Star Schema: A star schema was created for better statistics and querying.
-Change Management: For data integrity, included Slowly Changing Dimensions.
-ETL Processes: Supported both Full Load and Incremental Load situations by utilizing Derived Column for computed fields.
 
 #### Data Modeling (Star Schema)
 The project employs a star schema for streamlined analytics:
